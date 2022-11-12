@@ -21,11 +21,6 @@ PotatoQuotation.create!(
 )
 
 PotatoQuotation.create!(
-  price_per_ton: 33.97,
-  priced_at: DateTime.new(year, month, day, 9,30,0)
-)
-
-PotatoQuotation.create!(
   price_per_ton: 35.43,
   priced_at: DateTime.new(year, month, day, 10,45,0)
 )
@@ -38,6 +33,11 @@ PotatoQuotation.create!(
 PotatoQuotation.create!(
   price_per_ton: 37.54,
   priced_at: DateTime.new(year, month, day, 15,30,0)
+)
+
+PotatoQuotation.create!(
+  price_per_ton: 33.97,
+  priced_at: DateTime.new(year, month, day, 9,30,0)
 )
 
 puts "#{PotatoQuotation.count} quotations created"
