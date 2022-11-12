@@ -23,3 +23,9 @@ Things you may want to cover:
 
 * ...
 
+## Setup
+
+
+```
+rails db:drop db:create db:migrate db:seed
+```
