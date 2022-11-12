@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  namespace :api do |variable|
-    resources :potato_quotations
+  namespace :api do
+    resources :potato_quotations, only: %i[index] do
+      get 'maximum_gain', on: :collection
+    end
   end
 end

@@ -26,6 +26,20 @@ Things you may want to cover:
 ## Setup
 
 
+```sh
+bin/rails db:drop db:create db:migrate db:seed
 ```
-rails db:drop db:create db:migrate db:seed
+
+## Solution
+
+```sh
+bin/rails server
 ```
+
+### Première API
+
+[Lien](http://localhost:3000/api/potato_quotations)
+
+### Deuxième API
+
+[Lien](http://localhost:3000/api/potato_quotations/maximum_gain)
