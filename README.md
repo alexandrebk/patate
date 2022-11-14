@@ -57,8 +57,8 @@ bin/rails server
 
 ### Première API
 
-[Lien](http://localhost:3000/api/potato_quotations)
+[Lien](http://localhost:3000/api/potato_quotations/2022-11-12/history)
 
 ### Deuxième API
 
-[Lien](http://localhost:3000/api/potato_quotations/maximum_gain)
+[Lien](http://localhost:3000/api/potato_quotations/2022-11-12/maximum_gain)

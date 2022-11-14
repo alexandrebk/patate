@@ -5,8 +5,11 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   namespace :api do
-    resources :potato_quotations, only: %i[index] do
-      get 'maximum_gain', on: :collection
+    resources :potato_quotations, param: :date do
+      member do
+        get 'history'
+        get 'maximum_gain'
+      end
     end
   end
 end
