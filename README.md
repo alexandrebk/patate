@@ -23,10 +23,29 @@ Things you may want to cover:
 
 * ...
 
-## Setup
+## Technical stack
 
+Patate is developped using Ruby on Rails.
+
+### Ruby version (2.7.5)
+
+To install it with `rbenv` please run
 
 ```sh
+$ rbenv install 2.7.5
+```
+
+### Rails version: 7.0.4
+
+### Database: SQLite
+
+## Setup
+
+```sh
+git clone git@github.com:alexandrebk/patate.git
+cd patate
+bundle install
+yarn install
 bin/rails db:drop db:create db:migrate db:seed
 ```
 
